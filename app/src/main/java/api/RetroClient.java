@@ -12,7 +12,7 @@ import retromodels.DownloadProgressInterceptor;
 import retromodels.DownloadProgressListener;
 
 public class RetroClient {
-    private static final String ROOT_URL = "http://14.142.78.188/LucasIndianServiceQuality/LucasIndianServiceQuality/";
+    private static final String ROOT_URL = "";
 
     private static Retrofit getRetrofitInstance(DownloadProgressListener listener) {
 
