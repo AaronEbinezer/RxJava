@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
-        final String ROOT_URL = "http://14.142.78.188/LucasIndianServiceQuality/LucasIndianServiceQuality/";
+        final String ROOT_URL = "";
 
         new DownloadAPI(ROOT_URL, listener).downloadAPK("Root_Url", new Observer<Lists>() {
                      @Override
