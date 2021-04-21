@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
 
         final String ROOT_URL = "http://14.142.78.188/LucasIndianServiceQuality/LucasIndianServiceQuality/";
 
-        new DownloadAPI(ROOT_URL, listener).downloadAPK("http://14.142.78.188/LucasIndianServiceQuality/LucasIndianServiceQuality/API/Value/GetDlrcode", new Observer<Lists>() {
+        new DownloadAPI(ROOT_URL, listener).downloadAPK("Root_Url", new Observer<Lists>() {
                      @Override
             public void onError(Throwable e) {
                 e.printStackTrace();
